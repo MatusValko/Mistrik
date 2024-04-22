@@ -20,7 +20,7 @@ setup(
         'Operating System :: OS Independent',   
         'Topic :: Scientific/Engineering',     
         'Topic :: Text Processing :: Linguistic',
-        'Topic :: Software Development :: Libraries :: Python Modules'
+        'Topic :: Software Development :: Libraries :: Python Modules',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
