@@ -35,12 +35,12 @@ def count_syllables(word):
 
 def mistrik_readability(text):
     #CLEAN
-    quotation_chars = ['’' ,'`',"'", "„", '"', '“', '”']
-    #DELETE ALL QUOTATION MARKS
-    for char in quotation_chars:
+    bad_chars = ['’' ,'`',"'", "„", '"', '“', '”', '(', ')', '[', ']', '{', '}', '=' ,'+', '-', '*']
+    #DELETE ALL QUOTATION MARKS, PARENTHESES AND OTHER SYMBOLS
+    for char in bad_chars:
         text = text.replace(char,"")
     #SPLIT ALL COMPOUND WORDS INTO MULTIPLE WORDS: HORE-DOLE, BRINK-BRINK
-    dash_chars = ['-', '–']
+    dash_chars = ['-', '–', '—', '/','\\']
     for dash in dash_chars:
         text = text.replace(dash," ")
 
@@ -60,11 +60,13 @@ def mistrik_readability(text):
                 if next_word[0].isupper(): # NEXT WORD, FIRST LETTER IS CAPITAL = NEXT SENTENCE
                     sentence_count += 1
         # THE FINAL CLEANING OF THE WORD ENSURES AN ACCURATE COUNT OF UNIQUE WORDS.          
-        for char in ['.','?','!',',',':', '(', ')', '[',']']:
-             word = word.replace(char,"")       
-        words_cleaned.append(word)
+        for char in ['.','?','!',',',';',':']:
+             word = word.replace(char,"")  
+        if word != "":
+            words_cleaned.append(word.lower())
 
     words = words_cleaned
+    
     print("MISTRIK READABILITY METRIC:")
     print("SENTENCES: ",sentence_count)
     
