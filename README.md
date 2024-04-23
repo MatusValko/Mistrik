@@ -3,9 +3,17 @@
  [![MIT license](https://img.shields.io/badge/License-MIT-green.svg)](https://lbesson.mit-license.org/) 
 
 ## What is it?
-**Mistrik** is a pure Python package that scores the readability of text using the Mistrik's measure of readability/comprehensibility.
-This metric can be used to measure the readability index (R) of Slovak texts, textbooks, research papers and many more.
-The original research by Jozef Mistrík can be found [here](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf#page=46) (pages 171-178).
+**Mistrík** is a pure Python package that scores the readability of text using the Mistrík's measure of readability and comprehension. The Mistrík’s readability formula is calculated using the _Phrase Repetition Index_. This implies that a text becomes easier to read the more words it repeats. The metric can be used to measure the readability index (R) of Slovak texts, textbooks, research papers and many more. 
+The original research by Jozef Mistrík can be found [here](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf#page=46) (pp.171-178). 📑
+
+### Why we made this? 
+Readability measures are somewhat common in Slovakia, but not as widespread as they are abroad. Our goal was to support the use of readability measures, especially Mistrík’s, by creating an open-source Python library, since there is still no library or tool that could apply a given metric to selected texts. At the same time, we wanted to make this metric more accessible because improving reading comprehension skills not only improves comprehension but also supports lifelong learning by enabling individuals to effectively absorb informa- tion in a variety of areas.
+
+##Installation & Usage: 
+```shell
+pip install 
+from Mistrik import readability
+```
 
 ## License
 
