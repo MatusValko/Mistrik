@@ -5,5 +5,5 @@
 ## What is it?
 **Mistrik** is a pure Python package that scores the readability of text using the Mistrik's measure of readability/comprehensibility.
 This metric can be used to measure the readability index (R) of Slovak texts, textbooks, research papers and many more.
-The original research by Jozef Mistrík can be found [here](http://readabilityformulas.com/](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf ) (pages 171-178).
+The original research by Jozef Mistrík can be found [here](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf ) (pages 171-178).
 
