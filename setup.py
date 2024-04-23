@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='mistrik',
-    version='1.0.0',    
+    version='1.2.0',    
     description='Measure text comprehensibility/readability',
     url='https://github.com/MatusValko/Mistrik-measure-of-comprehensibility',
     author='Matúš Valko',
