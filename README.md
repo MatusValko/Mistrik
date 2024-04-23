@@ -26,7 +26,7 @@ r = readability.mistrik_readability(text)
 ```
 You have the option of saving the chosen text in its text variable (e.g., text) or loading the text from a specified file to apply the metric to this variable.
 
-### mistrik_readability() :
+### def mistrik_readability() :
 
 ```python
 """
@@ -46,6 +46,7 @@ o tvarovej rovine v systéme jazyka."
 
 r = readability.mistrik_readability(text)
 ```
+#### Output: 
 ```{r df-drop-ok, class.source="bg-success"}
 MISTRIK READABILITY METRIC:
 SENTENCES:  2
