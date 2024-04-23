@@ -19,6 +19,7 @@ from Mistrik import readability
 
 ## Examples of use: 🧑🏻‍💻👩🏻‍💻 
 _Note:_ The readability metric provides a `score` attribute.
+
 _Note <sup>2</sup>:_ In all examples below `r` is:
 
 ```python
