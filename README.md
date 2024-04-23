@@ -7,7 +7,8 @@
 The original research by Jozef Mistrík can be found [here](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf#page=46) (pp.171-178). 📑
 
 ### Why we made this? 🤔
-Readability measures are somewhat common in Slovakia, but not as widespread as they are abroad. Our goal was to support the use of readability measures, especially Mistrík’s, by creating an open-source Python library, _since there is still no library or tool that we can freely use for texts or for research._ At the same time, we wanted to make this metric _more accessible_ because improving reading comprehension skills not only improves comprehension but also supports lifelong learning by enabling individuals to effectively absorb informa- tion in a variety of areas.
+Readability measures are somewhat common in Slovakia, but not as widespread as they are abroad. Our goal was to support the use of readability measures, especially Mistrík’s, by creating an open-source Python library, _since there is still no library or tool that we can freely use for texts or for research._ 🙃 
+At the same time, we wanted to make this metric _more accessible_ because improving reading comprehension skills not only improves comprehension but also supports lifelong learning by enabling individuals to effectively absorb informa- tion in a variety of areas. 📈
 
 ## 💿 Getting started - installation: 💿
 ```python
@@ -16,14 +17,46 @@ pip install
 from Mistrik import readability
 ```
 
-###Examples of use: 
+## Examples of use: 🧑🏻‍💻👩🏻‍💻 
 _Note:_ The readability metric provides a `score` attribute.
 _Note <sup>2</sup>:_ In all examples below `r` is:
 
 ```python
 r = readability.mistrik_readability(text)
 ```
+You have the option of saving the chosen text in its text variable (e.g., text) or loading the text from a specified file to apply the metric to this variable.
 
+### mistrik_readability() :
+
+```python
+"""
+The function returns a number of sentences, V = average length of sentences in number of words, S = average length of words in number of syllables, I = word repetition index, R =readability score, 
+  @param:
+         text (str): The text for which the readability rate is to be calculated.
+  @returns:
+         int: number of sentences,
+         int: V, S, I 
+         int/float: Measure of text readability according to the Mistrík formula.
+  @raises:
+         ValueError: If the input text is an empty string.
+"""
+text = "Morfológia čiže tvaroslovie je jazykovedná náuka o gramatických tvaroch
+slov, ako aj o slovách, ktoré majú funkciu tvarov. Morfológia je teda náuka
+o tvarovej rovine v systéme jazyka."
+
+r = readability.mistrik_readability(text)
+```
+```{r df-drop-ok, class.source="bg-success"}
+MISTRIK READABILITY METRIC:
+SENTENCES:  2
+V:  14 (14.0)
+S:  2.3 (2.321)
+N:  28
+L:  23
+I:  1.217
+R:  24 (23.541)
+24
+```
 ## License
 
 [📜 MIT](LICENSE)
