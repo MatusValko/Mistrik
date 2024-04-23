@@ -30,7 +30,8 @@ You have the option of saving the chosen text in its text variable (e.g., text) 
 
 ```python
 """
-The function returns a number of sentences, V = average length of sentences in number of words, S = average length of words in number of syllables, I = word repetition index, R =readability score, 
+The function returns a number of sentences, V = average length of sentences in number of words,
+S = average length of words in number of syllables, I = word repetition index, R =readability score, 
   @param:
          text (str): The text for which the readability rate is to be calculated.
   @returns:
