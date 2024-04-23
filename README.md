@@ -7,3 +7,6 @@
 This metric can be used to measure the readability index (R) of Slovak texts, textbooks, research papers and many more.
 The original research by Jozef Mistrík can be found [here](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf#page=46) (pages 171-178).
 
+## License
+
+[📜 MIT](LICENSE)
