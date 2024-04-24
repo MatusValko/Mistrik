@@ -2,13 +2,16 @@ from setuptools import setup
 
 setup(
     name='mistrik',
-    version='1.3.0',    
-    description='Measure text comprehensibility/readability',
-    url='https://github.com/MatusValko/Mistrik-measure-of-comprehensibility',
+    packages=['mistrik'],
+    version='1.4.0',    
+    description='Measure text comprehensibility/readability using the Mistrik formula',
+    long_description=open('README.md', encoding='utf-8').read(),
+    long_description_content_type='text/markdown',
+    url='https://github.com/MatusValko/Mistrik',
     author='Matúš Valko',
     author_email='mvmatusvalko@gmail.com',    
     license='MIT',
-    packages=['mistrik'],
+    
     install_requires=[],
 
     classifiers=[

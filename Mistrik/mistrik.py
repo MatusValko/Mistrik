@@ -13,7 +13,7 @@ class Result:
         self. R = round(R)
 
     def __str__(self):
-        return "MISTRIK READABILITY METRIC:\nSENTENCES: {}\nSYLLABLES: {}\nV: {} ({})\nS: {} ({})\nN: {}\nL: {}\nI: {}\nR: {} ({})". \
+        return "MISTRIK MEASURE OF READABILITY:\nSENTENCES: {}\nSYLLABLES: {}\nV: {} ({})\nS: {} ({})\nN: {}\nL: {}\nI: {}\nR: {} ({})". \
             format(self.SEN, self.SYL, self.V, self.V3,self.S,self.S3,self.N,self.L,self.I,self.R,self.R3)
 
 class Mistrik:
