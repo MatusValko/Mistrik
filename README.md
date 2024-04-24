@@ -10,6 +10,24 @@ The original research by Jozef Mistrík can be found [here](https://www.juls.sav
 Readability measures are somewhat common in Slovakia, but not as widespread as they are abroad. Our goal was to support the use of readability measures, especially Mistrík’s, by creating an open-source Python library, _since there is still no public library or tool that focuses on Slovak texts that we can freely use._ 🙃 
 At the same time, we wanted to make this metric _more accessible_ because improving reading comprehension skills not only improves comprehension but also supports lifelong learning by enabling individuals to effectively absorb informa- tion in a variety of areas. 📈
 
+### Description of measure 🖊️ 
+S = average length of words in number of syllables\
+V = average length of sentences in number of words\
+N = number of words\
+L = number of unique words\
+I = word repetition index (I = N/L)\
+R = readability score (50 - ((S * V) / I))\
+
+| Score |    Difficulty     |
+|-------|-------------------|
+|90-100 | Very Easy         |
+| 80-89 | Easy              |
+| 70-79 | Fairly Easy       |
+| 60-69 | Standard          |
+| 50-59 | Fairly Difficult  |
+| 30-49 | Difficult         |
+| 0-29  | Very Confusing    |
+
 ## 💿 Getting started - installation: 💿
 ```python
 pip install
@@ -60,25 +78,6 @@ print ("The readability of the text is:", R.R)
 Sentences: 7  Syllables: 143
 The readability of the text is: 39
 ```
-
-
-### Descrition
-S = average length of words in number of syllables\
-V = average length of sentences in number of words\
-N = number of words\
-L = number of unique words\
-I = word repetition index (I = N/L)\
-R = readability score (50 - ((S * V) / I))\
-
-| Score |    Difficulty     |
-|-------|-------------------|
-|90-100 | Very Easy         |
-| 80-89 | Easy              |
-| 70-79 | Fairly Easy       |
-| 60-69 | Standard          |
-| 50-59 | Fairly Difficult  |
-| 30-49 | Difficult         |
-| 0-29  | Very Confusing    |
 
 ## Support us 🌟
 
