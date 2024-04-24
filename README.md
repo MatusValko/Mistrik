@@ -16,7 +16,7 @@ At the same time, we wanted to make this metric _more accessible_ because improv
 `N` = number of words,\
 `L` = number of unique words,
 `I` = word repetition index (I = N/L),\
-`R` = readability score <img src="https://latex.codecogs.com/svg.image?50 - ((S * V) / I)" /> 
+`R` = readability score 50 - ((S * V) / I)
 
 | Score |    Difficulty     |
 |:---:|:---:|
