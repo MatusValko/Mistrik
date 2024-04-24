@@ -19,7 +19,7 @@ I = word repetition index (I = N/L)\
 R = readability score (50 - ((S * V) / I))\
 
 | Score |    Difficulty     |
-|-------|-------------------|
+|:---:|:---:|
 |90-100 | Very Easy         |
 | 80-89 | Easy              |
 | 70-79 | Fairly Easy       |
