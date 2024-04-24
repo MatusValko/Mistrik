@@ -40,7 +40,8 @@ from mistrik import Mistrik
 
 ### 👩🏻‍💻 Examples of use: 🧑🏻‍💻 
 ```python
-text = """
+text = 
+"""
 Danka a Janka sú sestričky dvojčence a sú navlas
 rovnaké. Danka má oči celkom ako Janka, hnedé a veselé
 ani gaštančeky. A Janka má vlasy celkom ako Danka,
@@ -48,7 +49,8 @@ plavé a ostrihané na ofinu. Ešte aj nosy majú rovnaké:
 trošku vyhrnuté a veľmi všetečné.
 Danka a Janka sa rovnako aj obliekajú. Danka má
 vždy taký istý kabát ako Janka a Janka také isté šaty ako
-Danka. Aj čiapky a topánky majú vždy celkom rovnaké."""
+Danka. Aj čiapky a topánky majú vždy celkom rovnaké.
+"""
 
 M = Mistrik(text)
 R = M.readability()
