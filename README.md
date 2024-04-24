@@ -64,4 +64,6 @@ R:  24 (23.541)
 
 [📜 MIT](LICENSE)
 
-<a href="[https://www.buymeacoffee.com/m97tA5c](https://buymeacoffee.com/ducducdevs)" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+## Supoort us 🌟
+<a href="[[https://www.buymeacoffee.com/m97tA5c](https://buymeacoffee.com/ducducdevs)](https://buymeacoffee.com/ducducdevs
+)" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
