@@ -11,12 +11,12 @@ Readability measures are somewhat common in Slovakia, but not as widespread as t
 At the same time, we wanted to make this metric _more accessible_ because improving reading comprehension skills not only improves comprehension but also supports lifelong learning by enabling individuals to effectively absorb information in a variety of areas. 📈
 
 ### Description of measure 🖊️ 
-`S` = average length of words in number of syllables,
+`S` = average length of words in number of syllables,\
 `V` = average length of sentences in number of words,\
-`N` = number of words,
+`N` = number of words,\
 `L` = number of unique words,
 `I` = word repetition index (I = N/L),\
-`R` = readability score (50 - ((S * V) / I))
+`R` = readability score <img src="https://latex.codecogs.com/svg.image?50 - ((S * V) / I)" /> 
 
 | Score |    Difficulty     |
 |:---:|:---:|
