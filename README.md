@@ -1,6 +1,11 @@
 # 📚 Mistrík's measure of readability 📚
- ![Python](https://img.shields.io/badge/python-3.x-blue.svg)  [![wheel](https://img.shields.io/badge/wheel-yes-ff00c9.svg)](https://test.pypi.org/project/mistrik/)  [![PyPI Latest Release](https://img.shields.io/pypi/v/pandas.svg)](https://test.pypi.org/project/mistrik/) [![PyPI Downloads](https://img.shields.io/pypi/dm/pandas.svg?label=PyPI%20downloads)](https://test.pypi.org/project/mistrik/) 
- [![MIT license](https://img.shields.io/badge/License-MIT-green.svg)](https://lbesson.mit-license.org/) 
+[![Python](https://img.shields.io/badge/python-3.x-blue.svg)](https://img.shields.io/pypi/pyversions/mistrik)
+[![PyPI - Version](https://img.shields.io/pypi/v/mistrik?logo=PyPi&logoColor=white&link=https%3A%2F%2Fpypi.org%2Fproject%2Fmistrik%2F)](https://pypi.org/project/mistrik/) 
+[![PyPI - Wheel](https://img.shields.io/pypi/wheel/mistrik?link=https%3A%2F%2Fpypi.org%2Fproject%2Fmistrik%2F)](https://pypi.org/project/mistrik/) 
+![PyPI - Status](https://img.shields.io/pypi/status/mistrik)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/mistrik.svg?label=PyPI%20downloads)](https://pypi.org/project/mistrik/) 
+[![MIT license](https://img.shields.io/pypi/l/mistrik)](https://lbesson.mit-license.org/)
+
 
 ## What is it?
 **Mistrík** is a pure Python library/module that scores the readability of Slovak text using Mistrík's measure of readability and comprehension. The Mistrík’s readability formula is calculated using the _Phrase Repetition Index_. This implies that a text becomes easier to read the more words it repeats. The metric can be used to measure the readability index (R) of Slovak texts, textbooks, research papers, and many more. 
