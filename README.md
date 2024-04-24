@@ -21,7 +21,6 @@ At the same time, we wanted to make this metric _more accessible_ because improv
 
 
 | Score |    Difficulty    |
-
 |:---:|:---:|
 |50 - 40| Very Easy         |
 | 40-30 | Standard          |
@@ -33,7 +32,7 @@ In practice, this means that a text that scores between 40 and 50 is typical for
 
 ## 💿 Getting started - installation: 💿
 ```python
-pip install
+pip install mistrik
 ```
 
 ### 📦 Import module: 📦
