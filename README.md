@@ -14,9 +14,9 @@ At the same time, we wanted to make this metric _more accessible_ because improv
 `S` = average length of words in number of syllables,\
 `V` = average length of sentences in number of words,\
 `N` = number of words,\
-`L` = number of unique words,
+`L` = number of unique words,\
 `I` = word repetition index (I = N/L),\
-`R` = readability score 50 - ((S * V) / I)
+`R` = readability score 50 - ((S * V) / I)\
 
 | Score |    Difficulty     |
 |:---:|:---:|
