@@ -60,10 +60,11 @@ I:  1.217
 R:  24 (23.541)
 24
 ```
+## Support us 🌟
+<a href="https://buymeacoffee.com/ducducdevs" target="_blank](https://buymeacoffee.com/ducducdevs
+)"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ## License
 
 [📜 MIT](LICENSE)
 
-## Supoort us 🌟
-<a href="https://buymeacoffee.com/ducducdevs" target="_blank](https://buymeacoffee.com/ducducdevs
-)"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
