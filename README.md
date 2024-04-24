@@ -16,9 +16,12 @@ At the same time, we wanted to make this metric _more accessible_ because improv
 `N` = number of words,\
 `L` = number of unique words,\
 `I` = word repetition index (I = N/L),\
-`R` = readability score 50 - \frac{S\ast V}{I}\
+`R` = readability score 
 
-| Score |    Difficulty     |
+
+
+| Score |    Difficulty    |
+
 |:---:|:---:|
 |50 - 40| Very Easy         |
 | 40-30 | Standard          |
