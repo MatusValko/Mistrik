@@ -20,13 +20,13 @@ R = readability score (50 - ((S * V) / I))\
 
 | Score |    Difficulty     |
 |:---:|:---:|
-|90-100 | Very Easy         |
-| 80-89 | Easy              |
-| 70-79 | Fairly Easy       |
-| 60-69 | Standard          |
-| 50-59 | Fairly Difficult  |
-| 30-49 | Difficult         |
-| 0-29  | Very Confusing    |
+|50 - 40| Very Easy         |
+| 40-30 | Standard          |
+| 30-20 | Fairly Difficult  |
+| 20-10 | Difficult         |
+| 10-0 |  Very Confusing    |
+
+In practice, this means that a text that scores between 40 and 50 is typical for fairy tales. On the contrary, a text that achieves a score of up to 20 is suitable for experts in the field to which the text relates or for university students.
 
 ## 💿 Getting started - installation: 💿
 ```python
