@@ -10,7 +10,8 @@
 ## What is it?
 **Mistrík** is a pure Python library/module that scores the readability of Slovak text using Mistrík's measure of readability and comprehension. The Mistrík’s readability formula is calculated using the _Phrase Repetition Index_. This implies that a text becomes easier to read the more words it repeats. The metric can be used to measure the readability index (R) of Slovak texts, textbooks, research papers, and many more. 
 The original research by Jozef Mistrík can be found [here](https://www.juls.savba.sk/ediela/sr/1968/3/sr1968-3-lq.pdf#page=46) (pp.171-178). 📑
-Consider [citing us](https://www.researchgate.net/publication/383614438_Mistrik's_Readability_Metric_-_an_Online_Library). 
+
+Consider [citing us](https://www.researchgate.net/publication/383614438_Mistrik's_Readability_Metric_-_an_Online_Library) when using our library. 📑
 
 ### Why we made this? 🤔
 Readability measures are somewhat common in Slovakia, but not as widespread as they are abroad. Our goal was to support the use of readability measures, especially Mistrík’s, by creating an open-source Python library, _since there is still no public library or tool that focuses on Slovak texts that we can freely use._ 🙃 
